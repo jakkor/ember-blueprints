@@ -1,0 +1,35 @@
+{
+  "name": "ember-blueprints",
+  "version": "0.0.1",
+  "description": "Ember blueprints",
+  "main": "ember-blueprints.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": "",
+  "author": "Jakub Korupczynski",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": {
+    "ember-blueprints": "./bin/ember-blueprints.js"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "findup-sync": "^0.2.1",
+    "fs": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-mocha-test": "^0.12.7",
+    "js-yaml": "^3.3.1",
+    "mocha": "^2.2.5",
+    "resolve": "^1.1.6"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "promise": "^7.0.1"
+  }
+}
