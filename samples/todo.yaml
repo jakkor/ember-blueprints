@@ -1,0 +1,22 @@
+config:
+    name: "ember-blueprints-todo-app"
+packages:
+    - ember-cli-sass
+    - ember-cli-compass-compiler
+    - ember-cli-coffeescript
+app:
+    addapters:
+        - application
+    models:
+        - todoItem
+    routes:
+        - todo
+    controllers:
+        - todo
+    templates:
+        - application
+        - todoList
+        - todoItem
+    views:
+        - todoItem
+        - todoList
