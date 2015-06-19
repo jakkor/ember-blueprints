@@ -1,7 +1,7 @@
 var should = require('chai').should(),
-    Output = require('../../../lib/ember-blueprints/emberCli/output').output,
-    ChildProcessMock = require('../../helpers/child_process_mock').child_process_mock,
-    Logger_mock = require('../../helpers/logger_mock').logger;
+    Output = require('../../../lib/ember-blueprints/emberCli/output'),
+    ChildProcessMock = require('../../helpers/child_process_mock'),
+    Logger_mock = require('../../helpers/logger_mock');
 
 
 var logger_mock = new Logger_mock();

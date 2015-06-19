@@ -1,6 +1,6 @@
 'use strict';
 
-exports.child_process_mock = ChildProcessMock;
+module.exports = ChildProcessMock;
 
 function ChildProcessMock() {
   this.lastWrite = null;

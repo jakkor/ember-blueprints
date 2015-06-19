@@ -1,6 +1,6 @@
 'use strict';
 
-exports.logger = Logger;
+module.exports = Logger;
 
 function Logger() {
   this.lastMessage = null;
