@@ -1,8 +1,7 @@
 {
   "name": "ember-blueprints",
   "version": "0.0.1",
-  "description": "Ember blueprints",
-  "main": "ember-blueprints.js",
+  "description": "Ember blueprints application for creating ember applications from yaml blueprint files",
   "scripts": {
     "test": "grunt test"
   },
@@ -10,8 +9,7 @@
   "author": "Jakub Korupczynski",
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+      "type": "MIT"
     }
   ],
   "bin": {
