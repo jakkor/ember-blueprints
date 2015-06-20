@@ -1,6 +1,6 @@
 {
   "name": "ember-blueprints",
-  "version": "0.0.1",
+  "version": "0.1",
   "description": "Javascript cli application for creating ember applications from yaml blueprint files",
   "scripts": {
     "test": "grunt test"
