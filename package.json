@@ -1,11 +1,17 @@
 {
   "name": "ember-blueprints",
   "version": "0.0.1",
-  "description": "Ember blueprints application for creating ember applications from yaml blueprint files",
+  "description": "Javascript cli application for creating ember applications from yaml blueprint files",
   "scripts": {
     "test": "grunt test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakkor/ember-blueprints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakkor/ember-blueprints/issues"
+  },
   "author": "Jakub Korupczynski",
   "licenses": [
     {
@@ -15,6 +21,11 @@
   "bin": {
     "ember-blueprints": "./bin/ember-blueprints.js"
   },
+  "keywords": [
+    "javascript",
+    "ember.js",
+    "yaml"
+  ],
   "devDependencies": {
     "chai": "^3.0.0",
     "findup-sync": "^0.2.1",
