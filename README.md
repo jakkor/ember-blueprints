@@ -41,7 +41,9 @@ app:
     adaptersTests:
         - sampleAdapterTest
     components:
-        - sample-Component
+        -   name: sample-Component
+            options:
+                - --pod
     componentTests:
         - additionalSampleComponentTest
     controllerTests:
@@ -51,7 +53,15 @@ app:
     helperTests:
         - additionalSampleHelperTest
     models:
-        - sampleModel
+        -   name: sampleModel
+            options:
+            - --pod
+        - secondSampleModel
+        - thirdSampleModel
+        - fifthSampleModel
+        - sixthSampleModel
+        - seventhSampleModel
+        - eigthSampleModel
     routes:
         - sampleRouter
     controllers:
@@ -62,5 +72,6 @@ app:
     views:
         - sampleView
         - anotherSampleView
+
 
 ```
