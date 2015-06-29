@@ -1,0 +1,33 @@
+# Todo app from ember-cli example: https://github.com/ember-cli/ember-cli-todos
+config:
+    name: "ember-cli-todos"
+tools:
+app:
+    addapters:
+        - application
+    routes:
+        -   name: application
+            options:
+                - --pod
+    controllers:
+        -   name: application
+            options:
+                - --pod
+    models:
+        -   name: todo
+            options:
+            - title:string
+            - isCompleted:boolean
+    components:
+        -   name: edit-todo
+            options:
+                - --pod
+        -   name: todo-item
+            options:
+                - --pod
+        -   name: todos-list
+            options:
+                - --pod
+        -   name: todos-route
+            options:
+                - --pod
